@@ -17,4 +17,4 @@ class DevConfig(object):
   # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://user.password@ip:port/db_name'
  
   # 可以看到 SQLALCHEMY 打印出来的 sql 语句
-  # SQLALCHEMY_ECHO = True``
+  # SQLALCHEMY_ECHO = True

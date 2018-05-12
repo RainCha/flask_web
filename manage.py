@@ -1,6 +1,6 @@
 # coding=utf-8
-from flask.ext.script import Manager, Server
-from flask.ext.migrate import Migrate, MigrateCommand
+from flask_script import Manager, Server
+from flask_migrate import Migrate, MigrateCommand
 
 from main import app, db, User, Post, Tag, Comment
 
