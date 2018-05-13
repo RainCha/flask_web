@@ -1,7 +1,7 @@
 import random 
 import datetime
 
-from main import User, Tag, Post, db
+from webapp.models import User, Tag, Post, db
 
 user = User.query.get(1)
 tag_1 = Tag(u'python')
